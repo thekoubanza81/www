@@ -29,6 +29,26 @@ body {
         }
     }
 
+    section {
+        min-height: 100vh;
+
+        &:nth-of-type(1) {
+            background-color: black;
+        }
+
+        &:nth-of-type(2) {
+            
+        }
+
+        &:nth-of-type(3) {
+            background-color: #ddd;
+        }
+
+        &:nth-of-type(4) {
+            
+        }
+    }
+
     footer {
         background-color: whitesmoke;
         padding: 2rem;
