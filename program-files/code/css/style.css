@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -31,7 +35,7 @@ body {
 
     section {
         min-height: 100vh;
-        padding: 0rem 6rem;
+        padding: 1rem 6rem;
 
         &:nth-of-type(1) {
             background-color: black;
