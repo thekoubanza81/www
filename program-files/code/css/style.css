@@ -80,7 +80,8 @@ body {
                         }
 
                         .left {
-                            justify-content: flex-start;
+                            position: absolute;
+                            left: 20px;
                         }
                         
                         .right {
