@@ -33,15 +33,15 @@ body {
             height: 600px;
             height: 97vh;
             width: 320px;
-            border-radius: 35px;
+            border-radius: 25px;
             background-color: white;
             
 
             .inner-case {
                 border: 5px solid black;
                 height: 580px;
-                height: 95vh;
-                border-radius: 35px;
+                height: 95.2vh;
+                border-radius: 25px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
