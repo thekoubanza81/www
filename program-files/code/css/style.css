@@ -33,7 +33,7 @@ body {
             height: 600px;
             height: 97vh;
             width: 320px;
-            border-radius: 15px;
+            border-radius: 35px;
             background-color: white;
             
 
@@ -41,7 +41,7 @@ body {
                 border: 5px solid black;
                 height: 580px;
                 height: 95vh;
-                border-radius: 15px;
+                border-radius: 35px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
