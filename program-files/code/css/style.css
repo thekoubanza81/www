@@ -92,7 +92,7 @@ body {
                     }
                 }
                 .phone-main {
-                    padding: 5px;
+                    padding: 0 5px 0 5px;
                     overflow: scroll;
                     font-size: .8rem;
                     background-color: white;
