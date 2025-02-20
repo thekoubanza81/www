@@ -31,7 +31,7 @@ body {
         .phonecase {
             border: 1px solid bisque;
             height: 600px;
-            height: 95vh;
+            height: 97vh;
             width: 320px;
             border-radius: 15px;
             background-color: white;
@@ -40,7 +40,7 @@ body {
             .inner-case {
                 border: 5px solid black;
                 height: 580px;
-                height: 97vh;
+                height: 96vh;
                 border-radius: 15px;
                 display: flex;
                 flex-direction: column;
