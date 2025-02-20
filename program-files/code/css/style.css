@@ -201,7 +201,7 @@ body {
             background-color: bisque;
             height: 25px;
             width: 2px;
-            transform: translate(-5px, 260px);
+            transform: translate(-4px, 260px);
         }
     }
 }
