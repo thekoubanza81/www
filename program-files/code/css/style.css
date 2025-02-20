@@ -29,7 +29,7 @@ body {
         justify-content: center;
 
         .phonecase {
-            border: 2px solid bisque;
+            border: 1px solid bisque;
             height: 600px;
             height: 97.2vh;
             width: 320px;
@@ -38,7 +38,7 @@ body {
             
 
             .inner-case {
-                border: 10px solid black;
+                border: 5px solid black;
                 height: 580px;
                 height: 94vh;
                 border-radius: 15px;
