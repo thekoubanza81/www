@@ -80,8 +80,7 @@ body {
                         }
 
                         .left {
-                            position: absolute;
-                            left: 20px;
+                            margin-right: 50px;
                         }
                         
                         .right {
