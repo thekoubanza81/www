@@ -78,6 +78,11 @@ body {
                             justify-content: center;
                             gap: 5px;
                         }
+
+                        .left {
+                            justify-content: flex-start;
+                        }
+                        
                         .right {
 
                             .bi.bi-battery-charging {
