@@ -189,7 +189,7 @@ body {
         .volume-up, .volume-down {
             background-color: bisque;
             height: 30px;
-            width: 4px;
+            width: 2px;
         }
         .volume-up {
             transform: translate(0px, 170px);
@@ -200,7 +200,7 @@ body {
         .power-button {
             background-color: bisque;
             height: 25px;
-            width: 5px;
+            width: 2px;
             transform: translate(-9px, 260px);
         }
     }
