@@ -80,7 +80,7 @@ body {
                         }
 
                         .left {
-                            margin-right: 50px;
+                            margin-right: 65px;
                         }
                         
                         .right {
@@ -195,13 +195,13 @@ body {
             transform: translate(0px, 170px);
         }
         .volume-down {
-            transform: translate(-4px, 205px);
+            transform: translate(-2px, 205px);
         }
         .power-button {
             background-color: bisque;
             height: 25px;
             width: 2px;
-            transform: translate(-9px, 260px);
+            transform: translate(-5px, 260px);
         }
     }
 }
