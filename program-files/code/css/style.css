@@ -40,7 +40,7 @@ body {
             .inner-case {
                 border: 5px solid black;
                 height: 580px;
-                height: 95.2vh;
+                height: 95.4vh;
                 border-radius: 25px;
                 display: flex;
                 flex-direction: column;
