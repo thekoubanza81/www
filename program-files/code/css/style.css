@@ -13,7 +13,7 @@
 
 body {
     margin: 0;
-    height: 99.2vh;
+    height: 99.7vh;
     background-color: teal;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ body {
     .phone {
         height: 100vh;
         height: 600px;
-        height: 99vh;
+        height: 99.5vh;
         width: 320px;
         /* background-color: white; */
         display: flex;
@@ -31,7 +31,7 @@ body {
         .phonecase {
             border: 1px solid bisque;
             height: 600px;
-            height: 99vh;
+            height: 99.5vh;
             width: 320px;
             border-radius: 25px;
             background-color: white;
@@ -40,7 +40,7 @@ body {
             .inner-case {
                 border: 5px solid black;
                 height: 580px;
-                height: 97.4vh;
+                height: 97.9vh;
                 border-radius: 25px;
                 display: flex;
                 flex-direction: column;
