@@ -13,7 +13,7 @@
 
 body {
     margin: 0;
-    height: 99.7vh;
+    height: 100vh;
     background-color: teal;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ body {
     .phone {
         height: 100vh;
         height: 600px;
-        height: 99.5vh;
+        height: 100vh;
         width: 320px;
         /* background-color: white; */
         display: flex;
@@ -32,6 +32,7 @@ body {
             border: 1px solid bisque;
             height: 600px;
             height: 99.5vh;
+            height: 99%;
             width: 320px;
             border-radius: 25px;
             background-color: white;
@@ -41,6 +42,7 @@ body {
                 border: 5px solid black;
                 height: 580px;
                 height: 97.9vh;
+                height: 98.4%;
                 border-radius: 25px;
                 display: flex;
                 flex-direction: column;
@@ -50,37 +52,35 @@ body {
                     display: flex;
                     align-items: left;
                     justify-content: space-between;
-                    gap: 5px;
+                    /* gap: 5px; */
                     background-color: rgba(0, 0, 0, 0.062);
                     padding: 5px;
+                    cursor: pointer;
 
                     .camera {
                         display: flex;
                         align-items: center;
                         justify-content: center;
     
-                        .black-dot {
-                            height: 15px;
-                            width: 15px;
+                        .black-block {
+                            height: 20px;
+                            width: 140px;
                             background-color: black;
-                            border-radius: 50%;
+                            border-radius: 15px;
                         }
                     }
                     .menu-bar {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        gap: 50px;
+                        gap: 30px;
 
                         .left, .right {
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             gap: 5px;
-                        }
-
-                        .left {
-                            margin-right: 75px;
+                            font-weight: 600;
                         }
                         
                         .right {
@@ -118,6 +118,7 @@ body {
                             /* gap: 10px; */
                             color: white;
                             font-size: .7rem;
+                            text-decoration: none;
 
                             &.facebook {
                                 background-color: #285aeb;
@@ -172,13 +173,24 @@ body {
                             }
                         }
                     }
+                    .copyright {
+                        text-align: center;
+                    }
                 }
                 .nav-buttons {
                     display: flex;
                     align-items: left;
                     justify-content: space-between;
                     background-color: rgba(0, 0, 0, 0.062);
-                    padding: 5px 50px;
+                    background-color: transparent;
+                    padding: 7.5px 50px;
+                    
+                    .swiper-up {
+                        height: 5px;
+                        width: 200px;
+                        background-color: grey;
+                        border-radius: 10px;
+                    }
 
                     * {
                         cursor: pointer;
@@ -188,20 +200,20 @@ body {
         }
         .volume-up, .volume-down {
             background-color: bisque;
-            height: 30px;
+            height: 50px;
             width: 2px;
         }
         .volume-up {
-            transform: translate(0px, 170px);
+            transform: translate(-316px, 145px);
         }
         .volume-down {
-            transform: translate(-2px, 205px);
+            transform: translate(-318px, 200px);
         }
         .power-button {
             background-color: bisque;
-            height: 25px;
+            height: 45px;
             width: 2px;
-            transform: translate(-4px, 260px);
+            transform: translate(-4px, 145px);
         }
     }
 }
