@@ -115,7 +115,7 @@ body {
                             font-weight: bold;
                             align-items: center;
                             justify-content: center;
-                            gap: 8px;
+                            /* gap: 10px; */
                             color: white;
                             font-size: .7rem;
                             text-decoration: none;
@@ -156,6 +156,11 @@ body {
                             &.mail {
                                 color: black;
                                 border: 1px solid black;
+
+                                img {
+                                    height: 20px;
+                                    width: 27px;
+                                }
                             }
                             svg {
                                 height: 100%;
